@@ -1,0 +1,510 @@
+/*-------------------------------------------Header-------------------------------------------------------------------*/
+@media only screen and (max-width: 340px) 
+{
+    .nav-2
+    {
+        display:block;
+        background-color: #141414;
+        width:100vw;
+        z-index: 2;
+    }
+    .header
+    {
+        width:10vw;
+    }
+    .nav-2 a
+    {
+        color:#fff;
+        cursor: pointer;
+    }
+
+    .nav
+    {
+        display:none;
+    }
+    .side-1-b
+    {
+        display:flex;
+    }
+    .side-1-b ul
+    {
+        width:100vw;
+        padding-left:5vw;
+        padding-top:1vh;
+        display:flex;
+        justify-content:space-around;
+        font-size:3vh;
+    }
+    .side-1-b
+    {
+        padding-left:2vh;
+        padding-top:2vh;
+    }
+    .friendsB-R
+    {
+        display:block
+    }
+    .header
+    {
+        width:100vh;
+    }
+    .friendsB
+    {
+        position:absolute;
+        height:92vh;
+        top:55px;
+        width:98.6vw;
+        padding-left:2vh;
+        /* background-image: url("./friendsL.webp"); */
+        background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0) 0%,rgba(20, 20, 20, 0.247) 75%,rgba(20, 20, 20, 0.486) 85%,rgba(20, 20, 20, 0.726) 100%), url(./friendsLR.jpg);
+        background-position:top center;
+        background-size:cover;
+        background-repeat: no-repeat; 
+    }
+    .friendsB img
+    {
+        width:70vw;
+        padding-top: 60vh;
+        padding-left:16vw;
+    }
+    .Mbtnset
+    {
+        padding-top:3.5vh;
+        padding-left:5vw;
+        width:90vw;
+    }
+    .Mbtnset a
+    {
+        padding:10px 12px;
+    }
+    .Mcontent 
+    {
+        padding-top:3.5vh;
+        padding-left:5vw;
+        font-size:8.5px;
+        line-height:10px;
+    }
+    .mylist
+    {
+        width:92vw;
+    }
+    .continueWatching a img, .mylist a img, .Popular a img, .Trending a img, .Top a img
+    {
+        padding-top:2vh;
+        width:240px;
+    }  
+    .Popular, .Trending, .Top
+    {
+        width:100vw;
+    } 
+    .hola li
+    {
+        padding:10px;
+    }
+    .hola
+    {
+        overflow-x: scroll;
+    }
+    .intro-2
+    {
+        height:40vh;
+        margin-top:4vh;
+        background-color: #141414;
+        color:#fff;
+        position:relative;
+    }
+    .intro-2 .IntroPic
+    {
+        width:90vw;
+    }
+        .intro-2 .logo
+    {
+        position:absolute;
+        width:100px;
+        top:42%;
+        left:60%;
+    }
+    .intro-2 .Mbtnset
+    {
+        position: absolute;
+        top:70%;
+        left:-10px;
+    }
+    .intro-2 .Mcontent
+    {
+        display:none;
+    }
+    ::-webkit-scrollbar
+    {
+        width:0px;
+        background:transparent;
+    }
+    ::-webkit-scrollbar-track
+    {
+        background-color: #141414;
+        width:15px;
+    }
+    ::-webkit-scrollbar-thumb
+    {
+        background:rgba(0, 0, 0, 0.486);
+        border: 10px solid #141414;
+        border-radius: 9px;
+        background-clip:content-box;
+    }
+}
+@media only screen and (max-width: 400px) 
+{
+    .nav-2
+    {
+        display:block;
+        background-color: #141414;
+        width:85vw;
+        z-index: 2;
+    }
+    .nav-2 a
+    {
+        color:#fff;
+        cursor: pointer;
+    }
+
+    .nav
+    {
+        display:none;
+    }
+    .side-1-b
+    {
+        display:flex;
+    }
+    .side-1-b ul
+    {
+        width:100vw;
+        padding-left:5vw;
+        padding-top:1vh;
+        display:flex;
+        justify-content:space-around;
+        font-size:3vh;
+    }
+    .side-1-b
+    {
+        padding-left:2vh;
+        padding-top:2vh;
+    }
+    .friendsB-R
+    {
+        display:block
+    }
+    .header
+    {
+        width:20vh;
+    }
+    .friendsB
+    {
+        position:absolute;
+        height:94vh;
+        top:55px;
+        width:100vw;
+        padding-left:2vh;
+        /* background-image: url("./friendsL.webp"); */
+        background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0) 0%,rgba(20, 20, 20, 0.247) 75%,rgba(20, 20, 20, 0.486) 85%,rgba(20, 20, 20, 0.726) 100%), url(./friendsLR.jpg);
+        background-position:top center;
+        background-size:cover;
+        background-repeat: no-repeat; 
+    }
+    .friendsB img
+    {
+        width:70vw;
+        padding-top: 60vh;
+        padding-left:8vw;
+    }
+    .Mbtnset
+    {
+        padding-top:3.5vh;
+        padding-left: 5vw;
+        width:90vw;
+    }
+    .Mbtnset a
+    {
+        padding:10px 12px;
+    }
+    .Mcontent 
+    {
+        padding-top:3.5vh;
+        padding-left:5vw;
+        font-size:8.5px;
+        line-height:10px;
+    }
+    .mylist
+    {
+        width:85vw;
+    }
+    .continueWatching
+    {
+        padding-top:8vh;
+    }
+    .continueWatching a img, .mylist a img, .Popular a img, .Trending a img, .Top a img
+    {
+        padding-top:2vh;
+        width:240px;
+    }  
+    .Popular, .Trending, .Top
+    {
+        width:100vw;
+    } 
+    .hola li
+    {
+        padding:10px;
+    }
+    .hola
+    {
+        overflow-x: scroll;
+    }
+    .intro-2
+    {
+        height:40vh;
+        margin-top:4vh;
+        background-color: #141414;
+        color:#fff;
+        position:relative;
+        width:80vw;
+        height:40vh;
+    }
+    .intro-2 .IntroPic
+    {
+        width:80vw;
+    }
+        .intro-2 .logo
+    {
+        position:absolute;
+        width:100px;
+        top:42%;
+        left:55%;
+    }
+    .intro-2 .Mbtnset
+    {
+        position: absolute;
+        top:70%;
+        left:-10px;
+    }
+    .intro-2 .Mcontent
+    {
+        display:none;
+    }
+    ::-webkit-scrollbar
+    {
+        width:0px;
+        background:transparent;
+    }
+    ::-webkit-scrollbar-track
+    {
+        background-color: #141414;
+        width:15px;
+    }
+    ::-webkit-scrollbar-thumb
+    {
+        background:rgba(0, 0, 0, 0.486);
+        border: 10px solid #141414;
+        border-radius: 9px;
+        background-clip:content-box;
+    } 
+}
+
+
+/*-------------------------------------------Header Ends-----------------------------------------------------------------*/
+@media only screen and (max-width: 1000px)
+{
+    .nav-2
+    {
+        display:block;
+        background-color: #141414;
+        width:85vw;
+        z-index: 2;
+    }
+    .nav-2 a
+    {
+        color:#fff;
+        cursor: pointer;
+    }
+
+    .nav
+    {
+        display:none;
+    }
+    .side-1-b
+    {
+        display:flex;
+    }
+    .side-1-b ul
+    {
+        width:100vw;
+        padding-left:5vw;
+        padding-top:1vh;
+        display:flex;
+        justify-content:space-around;
+        font-size:3vh;
+    }
+    .side-1-b
+    {
+        padding-left:2vh;
+        padding-top:2vh;
+    }
+    .friendsB-R
+    {
+        display:block
+    }
+    .header
+    {
+        width:20vh;
+    }
+    .friendsB
+    {
+        position:absolute;
+        height:94vh;
+        top:55px;
+        width:100vw;
+        padding-left:2vh;
+        /* background-image: url("./friendsL.webp"); */
+        background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0) 0%,rgba(20, 20, 20, 0.247) 75%,rgba(20, 20, 20, 0.486) 85%,rgba(20, 20, 20, 0.726) 100%), url(./friendsLR.jpg);
+        background-position:top center;
+        background-size:cover;
+        background-repeat: no-repeat; 
+    }
+    .friendsB img
+    {
+        width:70vw;
+        padding-top: 60vh;
+        padding-left:10vw;
+    }
+    .Mbtnset
+    {
+        padding-top:3.5vh;
+        padding-left: 10vw;
+        width:90vw;
+    }
+    .Mbtnset a
+    {
+        padding:10px 12px;
+    }
+    .Mcontent 
+    {
+        padding-top:3.5vh;
+        padding-left:10vw;
+        font-size:8.5px;
+        line-height:10px;
+    }
+    .mylist
+    {
+        width:85vw;
+    }
+    .continueWatching
+    {
+        padding-top:8vh;
+    }
+    .continueWatching a img, .mylist a img, .Popular a img, .Trending a img, .Top a img
+    {
+        padding-top:2vh;
+        width:240px;
+    }  
+    .Popular, .Trending, .Top
+    {
+        width:100vw;
+    } 
+    .hola li
+    {
+        padding:10px;
+    }
+    .hola
+    {
+        overflow-x: scroll;
+    }
+    .intro-2
+    {
+        height:40vh;
+        margin-top:4vh;
+        background-color: #141414;
+        color:#fff;
+        position:relative;
+        width:80vw;
+        height:40vh;
+    }
+    .intro-2 .IntroPic
+    {
+        width:90vw;
+    }
+        .intro-2 .logo
+    {
+        position:absolute;
+        width:100px;
+        top:42%;
+        left:70%;
+    }
+    .intro-2 .Mbtnset
+    {
+        position: absolute;
+        top:80%;
+        left:7vw;
+    }
+    .intro-2 .Mcontent
+    {
+        display:none;
+    }
+    ::-webkit-scrollbar
+    {
+        width:0px;
+        background:transparent;
+    }
+    ::-webkit-scrollbar-track
+    {
+        background-color: #141414;
+        width:15px;
+    }
+    ::-webkit-scrollbar-thumb
+    {
+        background:rgba(0, 0, 0, 0.486);
+        border: 10px solid #141414;
+        border-radius: 9px;
+        background-clip:content-box;
+    } 
+    .footer
+    {
+        display:none;
+    }
+    .footerR
+    {
+        display:block;
+        background-color:black;
+        color:rgba(255, 255, 255, 0.342);
+        height:7vh;
+        padding-top:2vh;
+        position:sticky;
+        bottom:0;
+        width:100vw;
+    }
+    .footerR ul
+    {
+        display:flex;
+        justify-content:space-around;
+        font-size:2vh;
+    }
+    .footerR ul li .icon
+    {
+        font-size:3vh;
+        padding-left:2vh;
+        /* padding-bottom:1vh; */
+    }
+    #shift
+    {
+        padding-left:6vh;
+    }
+    #shift-1
+    {
+        padding-left:4vh;
+    }
+    #shift-2
+    {
+        padding-left:1.5vh;
+    }
+    #active
+    {
+        color:#fff;
+    }
+} 

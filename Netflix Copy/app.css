@@ -1,0 +1,321 @@
+*,
+        *::after,
+        *::before{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        html{
+            box-sizing: inherit;
+        }
+
+        body{
+            box-sizing: border-box;
+            font-size: 62.5%;
+            background-color: #141414;
+            font-family: 'Montserrat', sans-serif;
+        }
+        p
+        {
+            cursor:default;
+        }
+/*---------------------------------------------------------header-------------------------------------------------------*/
+.body
+{
+    background-color: #141414;
+}
+.header
+{
+    background-color: #141414;
+    height:98.4vh;
+}
+.nav-2
+{
+    display:none;
+}
+.nav
+{
+    background-color: #141414;
+    width:100vw;
+    position:fixed;
+    z-index: 2;
+}
+.nav a
+{
+    color:#fff;
+}
+.side-1
+{
+   display:flex; 
+}
+.side-1 img
+{
+    margin-right:20px;
+}
+.side-1 ul
+{
+    width:30vw;
+    display:flex;
+    justify-content: space-between;
+}
+.side-1 ul li
+{
+    padding-top: 3vh;
+    font-size:13.8px;
+}
+.side-2
+{
+    position:absolute;
+    width:12vw; 
+    top:0px;
+    left:85vw;
+}
+.side-2 ul 
+{
+    display:flex;
+    justify-content: space-around;
+}
+.side-2 ul li
+{
+    padding-top: 3vh;
+    font-size:15px;
+}
+.friendsB
+{
+    position:absolute;
+    height:90vh;
+    top:55px;
+    width:100vw;
+    /* background-image: url("./friendsL.webp"); */
+    background-image: linear-gradient(to bottom, rgba(20, 20, 20, 0) 0%,rgba(20, 20, 20, 0.247) 75%,rgba(20, 20, 20, 0.486) 85%,rgba(20, 20, 20, 0.726) 100%), url(./friendsL.webp);
+    background-position:top center;
+    background-size:cover;
+    background-repeat: no-repeat; 
+}
+.friendsB img
+{
+    width:32vw;
+    padding-top:12vh;
+    padding-left:5vw;
+}
+.Mbtnset
+{
+    padding-top:3.5vh;
+    padding-left:5vw;
+    width:30vw;
+}
+.Mbtnset a
+{
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding:10px 30px;
+    margin-right:10px;
+    font-weight: 600;
+    font-size:12px;
+    border-radius:2px;
+}
+.Mcontent
+{
+    padding-top:5vh;
+    padding-left:5vw;
+    color:#fff;
+    font-size:18px;
+    font-weight:500;
+    letter-spacing: 1px;
+    line-height:23px;
+    text-shadow: 2px 2px 8px black;
+}
+.Mbtnset a:hover
+{
+    padding:12px 32px;
+    border:1px solid #fff; 
+}
+/*--------------------------------------------header ends----------------------------------------------------------*/
+/*--------------------------------------------Container------------------------------------------------------------*/
+.container
+{
+    padding-top:1vh;
+    padding-left:5vw;
+}
+.continueWatching, .mylist, .Popular, .Trending, .Top
+{
+    padding-top:4vh;
+    font-size: 18px;
+    color:white;
+    font-weight: 600;
+}
+.continueWatching a img, .mylist a img, .Popular a img, .Trending a img, .Top a img
+{
+    padding-top:2vh;
+    width:240px;
+}
+.continueWatching a:hover img, .mylist a:hover img, .Popular a:hover img, .Trending a:hover img, .Top a:hover img 
+{
+   transform:scale(1.5);
+   transition: all 0.5s ease;
+}
+.mylist
+{
+    width:54.5vw;
+}
+.mylist a, .Popular a
+{
+    color:white;
+}
+.hola
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+span
+{
+    font-size:12px;
+}
+.Explore
+{
+    display:none;
+}
+.arrow
+{
+    display:inline-block;
+}
+
+
+.mylist a:hover span, .Popular a:hover span, .Trending a:hover span, .Top  a:hover span
+{
+    display:inline-block;
+    transition: all 0.5s;
+}
+.Popular, .Trending, .Top
+{
+    width:92vw;
+}
+.intro-2
+{
+    height:60vh;
+    margin-top:4vh;
+    background-color: #141414d5;
+    color:#fff;
+    position:relative;
+    width:92vw;
+}
+.intro-2::before
+{
+    content:'';
+    background:url(./StrangerThingsB.webp);
+    background-position:center;
+    background-size:cover;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+.intro-2 .IntroPic
+{
+    width:51vw;
+}
+.intro-2 .logo
+{
+    position:absolute;
+    width:380px;
+    top:0;
+    left:740px;
+}
+.intro-2 .Mbtnset
+{
+    position: absolute;
+    top:230px;
+    left:670px;
+}
+.intro-2 .Mcontent
+{
+    position: absolute;
+    top:280px;
+    left:670px;
+    width:500px;
+    letter-spacing: 0px;
+}
+
+/* .hola
+{
+    overflow-x: auto;
+    overflow-y:visible;
+} */
+::-webkit-scrollbar
+{
+    width:0px;
+    background:transparent;
+}
+::-webkit-scrollbar-track
+{
+    background-color: #141414;
+    width:15px;
+}
+::-webkit-scrollbar-thumb
+{
+    background:rgba(0, 0, 0, 0.486);
+    border: 7px solid #141414;
+    border-radius: 9px;
+    background-clip:content-box;
+}
+/*---------------------------------------------------container ends-----------------------------------------------------*/
+/*-------------------------------------------------------Footer---------------------------------------------------------*/
+.footerR
+{
+    display:none;
+}
+.footer
+{
+    padding-left: 10vw;
+    padding-top:10vh;
+}
+.footer a
+{
+    color:rgba(255, 255, 255, 0.521);
+    font-size:2vh;
+}
+.footer .social 
+{
+    padding-bottom:2vh;
+}
+.footer .likha-pati
+{
+    display:flex;
+    justify-content: space-between;
+    width:75vw;
+    padding-bottom:4vh;
+    line-height:22px;
+}
+.footer .btn 
+{
+    padding:6px;
+    border:2px solid rgba(255, 255, 255, 0.521);
+    width:87px;
+    margin-bottom: 2vh;
+}
+.footer p
+{
+    font-size:12px;
+    color:rgba(255, 255, 255, 0.521);
+    padding-bottom:2vh;
+}
+.footer .social
+{
+    display:flex;
+    justify-content: space-between;
+    width:30vh
+}
+.footer .social a li
+{
+    font-size:5vh;
+}
+.footer a:hover
+{
+    color:#fff;
+}
+/*---------------------------------------------Footer Ends-------------------------------------------------------*/
